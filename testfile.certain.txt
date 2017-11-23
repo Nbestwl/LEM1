@@ -1,0 +1,9 @@
+( size big ) & ( color blue ) => ( Attitude so-so ) 
+
+( size medium ) & ( feel hard ) & ( temperature high ) => ( Attitude + ) 
+( size medium ) & ( feel soft ) & ( temperature high ) => ( Attitude + ) 
+( size big ) & ( feel soft ) & ( temperature low ) => ( Attitude + ) 
+
+( color yellow ) & ( feel hard ) => ( Attitude - ) 
+( color blue ) & ( feel soft ) => ( Attitude - ) 
+

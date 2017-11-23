@@ -1,0 +1,8 @@
+
+( B b ) & ( C h ) => ( Attitude + ) 
+( B y ) & ( C s ) => ( Attitude + ) 
+
+( B y ) & ( C h ) => ( Attitude - ) 
+( B b ) & ( C s ) => ( Attitude - ) 
+( B b ) & ( C h ) => ( Attitude - ) 
+

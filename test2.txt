@@ -1,0 +1,10 @@
+< a a a d >
+[ size color feel temperature attitude ]
+big yellow soft low +
+big yellow hard high -
+medium yellow soft high +
+medium blue hard high +
+medium blue hard high +
+medium blue soft low -
+big blue hard low so-so
+big blue hard high so-so

@@ -1,0 +1,11 @@
+( B 1.1..1.7 ) & ( C 7.2..8.7 ) => ( Attitude small ) 
+
+( A 1.6..2.0 ) & ( C 10.2..12.7 ) => ( Attitude high ) 
+
+( B 0.3..0.7 ) & ( C 7.2..8.7 ) => ( Attitude very-small ) 
+
+( A 0.8..1.0 ) & ( C 10.2..12.7 ) => ( Attitude medium ) 
+( A 1.2..1.6 ) & ( C 10.2..12.7 ) => ( Attitude medium ) 
+
+( C 12.7..15.2 ) => ( Attitude very-high ) 
+
