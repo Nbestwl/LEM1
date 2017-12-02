@@ -1,7 +1,4 @@
-
 # Project Title: EECS 837 LEM1 programming project
-# Name: Lei Wang
-# KUID: 2644844
 # Date: 11/21/2017
 
 import os.path
@@ -9,8 +6,7 @@ import numpy as np
 
 
 def file_reader():
-	while True:
-		# prompt the user to type in a input file
+	while True:		# prompt the user to type in a input file
 		read_file_name = raw_input("\nPlease type the name of the input file:\n")
 
 		# check if the file exists in the current dir
@@ -342,8 +338,8 @@ def lem1(discretized_dataset, attitude, consistency, write_file_name):
 
 
 def main():
-	read_file_name, write_file_name = file_reader()
-	dataset = parsing(read_file_name)
+	# read_file_name, write_file_name = file_reader()
+	dataset = parsing('test2.txt')
 	# check if the data set needs discretization or not
 	if '..' in ''.join(dataset[1]):
 		print '\nno need for discretization\n'
@@ -353,7 +349,7 @@ def main():
 
 	# proceed to the LEM1 algorithm after preprocessing all the data
 	attitude, consistency = bound_calc(dataset)
-	lem1(dataset, attitude, consistency, write_file_name)
+	lem1(dataset, attitude, consistency, 'hello')
 
 
 if __name__ == "__main__":
